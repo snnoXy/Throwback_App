@@ -1,7 +1,7 @@
 # Throwback_App
  Throwback is an application designed to give you a place to store all the memories you want to remember.
 
- The application that developed with Java to work on Android Devices.
+ This application has been developed using Java to run on Android devices.
 
  It can be seen as an "Instagram for personal use" application.
 
