@@ -7,7 +7,7 @@
 
  All the data is stored on Firebase.
 
-In the made of this application these technologies was used:
+The following technologies were used in the production of this application : 
 - Firebase Authentication
 - Firebase Storage
 - Firebase Firestore
