@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "145076237632",
+    "project_id": "throwback-8ac34",
+    "storage_bucket": "throwback-8ac34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145076237632:android:b60370cdcd577ed1c036a5",
+        "android_client_info": {
+          "package_name": "com.example.throwback"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_1o--FYC2nDnW2Bhb0sDORthnA4IrSjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

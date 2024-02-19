@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.throwback.fragments.FeedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" >
+        <action
+            android:id="@+id/action_feedFragment_to_newThrowbackFragment"
+            app:destination="@id/newThrowbackFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/newThrowbackFragment"
+        android:name="com.example.throwback.fragments.NewThrowbackFragment"
+        android:label="fragment_new_throwback"
+        tools:layout="@layout/fragment_new_throwback" >
+        <action
+            android:id="@+id/action_newThrowbackFragment_to_feedFragment"
+            app:destination="@id/feedFragment"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+</navigation>
